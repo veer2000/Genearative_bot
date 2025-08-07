@@ -1,0 +1,66 @@
+# Environment and secrets
+.env
+.env.local
+*.env
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.python-version
+build/
+dist/
+*.egg-info/
+*.egg
+venv/           # Windows virtual environment
+.venv/          # Also common in Windows
+env/            # Alternative name
+
+# Windows-specific
+Thumbs.db
+[Dd]esktop.ini
+*.lnk
+~$*
+
+# IDE/Editor (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+chroma_db/      # ChromaDB local storage
+data/           # Avoid local data dumps
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Build and deployment
+.Dockerfile
+docker-compose.yml
+*.exe           # Windows executables
+*.msi
+*.bat           # Scripts (can be regenerated)
+
+# Jupyter/Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS/Linux leftovers (safe to include)
+.DS_Store
+
+# PyCharm
+*.iml
+workspace.xml
